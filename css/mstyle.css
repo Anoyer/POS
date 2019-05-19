@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+html,
+body {
+    min-width: 1300px;
+
+}
+
+#all {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#main {
+    float: left;
+    width: 100%;
+    height: 920px;
+
+}
+
+#mainbuttom {
+    position: relative;
+
+    width: 100%;
+    background-color: rgb(42, 42, 42);
+}
+
+#mainbuttom .buttomall {
+    position: relative;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    //background-color: white;
+}
+
+#mainbuttom .buttomall .in {
+    float: left;
+    margin-left: 100px;
+    display: none;
+
+
+}
+
+#mainbuttom .buttomall .inright {
+    text-align: center;
+    //float: left;
+    width: 80%;
+    height: 150px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    //background-color: white;
+    font-size: 25px;
+    color: rgb(123, 151, 123);
+}
+
+#ewm {
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    right: 0;
+    top: 50%;
+    left: 90%;
+    z-index: 1000;
+}
+
+#ewm .qq {
+    width: 100%;
+    height: 20px;
+    text-align: center;
+
+}
